@@ -6,4 +6,8 @@ public class SmartTv {
   public void turnOnTv() {
     on = true;
   }
+
+  public void turnOffTv() {
+    on = false;
+  }
 }
