@@ -11,8 +11,12 @@ public class SmartTv {
     on = false;
   }
 
-  public void changingChannel() {
+  public void increaseChannel() {
     channel++;
+  }
+
+  public void decreaseChannel() {
+    channel--;
   }
 
   public void turnUpVolume() {
