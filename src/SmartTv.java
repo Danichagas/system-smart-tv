@@ -11,6 +11,10 @@ public class SmartTv {
     on = false;
   }
 
+  public void changeChannel(int newChannel) {
+    channel = newChannel;
+  }
+
   public void increaseChannel() {
     channel++;
   }
